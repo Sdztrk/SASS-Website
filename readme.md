@@ -2,7 +2,7 @@
 
 ## Preparing Website
 
-I created this webpage with using HTML,CSS and SASS together.
+I created this webpage with using HTML and Scss.
 
 ## Overview
 
