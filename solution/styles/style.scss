@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h1{
+        font-weight: 200;
+        font-size: 2rem;
+        font-family: 'Kumbh Sans', sans-serif;
+        cursor: pointer;
+    }
+
+    nav{
+        width: 100%;
+        font-family: 'Kumbh Sans', sans-serif;
+        //Float property doesnt work its because display property is flex
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                margin: 20px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    transition: all .2s ease-in-out;
+                }
+                a:hover{
+                    color: rgb(1, 248, 1);
+                }
+                button{
+                    background-color: #00CC66;
+                    color: white;
+                    width: 105px;
+                    height: 40px;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 16px;
+                    transition: all .5s ease-in-out;
+                
+                }
+                button:hover{
+                    background-color: rgb(233, 81, 81);
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}
+div{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    div{
+        display: block;
+        width: 50%;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+        h1{
+            font-size: 70px;
+            color: #00CC66;
+        }
+        h2{
+            font-size: 70px;
+            color: black;
+        }
+        h3{
+            font-size: 35px;
+            margin-top: 20px;
+    
+        }
+        button{
+            background-color: #00CC66;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            margin-top: 30px;
+            background: linear-gradient(to right, red 50%, #00CC66 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .3s ease-out;
+        }
+        button:hover{
+            background-position: left bottom;
+            cursor: pointer;
+        }
+    }
+    img{
+        height: 700px;
+        width: 50%;
+    }
+}
